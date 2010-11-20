@@ -7,13 +7,17 @@
 //
 
 #import "MyImageKit.h"
-
+//TODO : provide GUI for user to select 3 modes : 
+// 1. high definition , but slow
+// 2. middle , 640
+// 3. slow  , 320 , fast 
+static int kMaxResolution = 640; 
 
 @implementation MyImageKit
 
 
 + (UIImage *)scaleAndRotateImage:(UIImage *)image {
-	static int kMaxResolution = 640;
+	
 	NSLog(@"scaleImage");
 	
 	CGImageRef imgRef = image.CGImage;

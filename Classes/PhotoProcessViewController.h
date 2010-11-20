@@ -5,13 +5,20 @@
 #import <MessageUI/MFMailComposeViewController.h>
 
 #import "LabeledActivityIndicatorView.h"
+#import "ImageScrollView.h"
 
 @interface PhotoProcessViewController : UIViewController <UIActionSheetDelegate, 
-UIImagePickerControllerDelegate,
-UIPopoverControllerDelegate,
-UINavigationControllerDelegate,
-MFMailComposeViewControllerDelegate> {
-	UIImageView *imageView;
+														 UIScrollViewDelegate,
+														 UIImagePickerControllerDelegate,
+														 UIPopoverControllerDelegate,
+														 UINavigationControllerDelegate,
+                                                         MFMailComposeViewControllerDelegate> 
+{
+															 
+															 
+	//UIImageView *imageView;
+	ImageScrollView* imageView;
+	UIScrollView *scrollView;														 
 	UISlider* slider1;
 	UISlider* blurAdjustSlider;
 	
@@ -23,7 +30,8 @@ MFMailComposeViewControllerDelegate> {
 	UIToolbar *toolbar;
 	UIBarButtonItem *loadItem;
 	
-	CGImageRef oriCGImage;
+	CGImageRef beforeCGImage;
+	CGImageRef afterCGImage;   // after applying effects 
 }
 
 - (IBAction)loadImage:(id)sender;
@@ -31,7 +39,7 @@ MFMailComposeViewControllerDelegate> {
 
 
 @property (nonatomic, retain) LabeledActivityIndicatorView* activity;
-@property (nonatomic, retain) UIImageView *imageView;
+@property (nonatomic, retain) ImageScrollView* imageView;
 @property (nonatomic, retain) UISlider* slider1;
 @property (nonatomic,retain) UISlider* blurAdjustSlider;
 
@@ -42,7 +50,8 @@ MFMailComposeViewControllerDelegate> {
 @property (nonatomic, retain) UIBarButtonItem *loadItem;
 
 
-@property (nonatomic, assign) CGImageRef oriCGImage;
+@property (nonatomic, assign) CGImageRef beforeCGImage;
+@property (nonatomic, assign) CGImageRef afterCGImage;
 
 
 @end

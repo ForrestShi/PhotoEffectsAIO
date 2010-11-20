@@ -5,7 +5,19 @@ Use IAP to put all effects together into 1 app.
 
 
 
-TODO LIST
+
+TODO LIST   (Big things)
 1. Architect 
 2. GUI 
 3. IAP 
+
+
+TODO LIST   (Small things)
+
+#import "MyImageKit.h"
+//TODO : provide GUI for user to select 3 modes : 
+// 1. high definition , but slow
+// 2. middle , 640
+// 3. slow  , 320 , fast 
+static int kMaxResolution = 640; 
+

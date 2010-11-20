@@ -34,13 +34,16 @@ exit(-1); \
 @synthesize picker = _picker;
 @synthesize popover = _popover;
 @synthesize activity;
-@synthesize oriCGImage;
+@synthesize beforeCGImage;
+@synthesize afterCGImage;
 
 
 - (void)dealloc {
 	AudioServicesDisposeSystemSoundID(alertSoundID);
 
-	CGImageRelease(oriCGImage);
+	CGImageRelease(beforeCGImage);
+	CGImageRelease(afterCGImage);
+	
 	[imageView release];
 	[activity  release];
 	[slider1 release]; 
@@ -230,14 +233,16 @@ CGImageRef createStandardImage(CGImageRef image) {
 												  colorSpace,
 												  kCGImageAlphaPremultipliedFirst);
 	CGColorSpaceRelease(colorSpace);
-	CGImageRef cgimage = CGBitmapContextCreateImage(context);
-	UIImage *image = [[UIImage alloc] initWithCGImage:cgimage];
-	CGImageRelease(cgimage);
+	
+	//self.afterCGImage = nil;
+	self.afterCGImage = CGBitmapContextCreateImage(context);
+	UIImage *image = [[UIImage alloc] initWithCGImage:afterCGImage];
+	
 	CGContextRelease(context);
 	[srcData1 release];
 	free(trgt_image);
 	
-	[imageView	performSelectorOnMainThread:@selector(setImage:) withObject:image waitUntilDone:YES];
+	[imageView	performSelectorOnMainThread:@selector(displayImage:) withObject:image waitUntilDone:YES];
 	
 	[self performSelectorOnMainThread:@selector(hideProgressIndicator) withObject:nil waitUntilDone:TRUE];
 	
@@ -279,9 +284,11 @@ CGImageRef createStandardImage(CGImageRef image) {
 	
 	
 	UIImage *defaultImage = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"afagangirl" ofType:@"png"]];
-	imageView = [[UIImageView alloc]initWithFrame:fullRect];//[[UIImageView alloc]initWithImage:defaultImage];
-	imageView.image = defaultImage;
-	oriCGImage =  createStandardImage(imageView.image.CGImage);
+	//imageView = [[UIImageView alloc]initWithFrame:fullRect];//[[UIImageView alloc]initWithImage:defaultImage];
+	//imageView.image = defaultImage;
+	imageView = [[ImageScrollView alloc] initWithFrame:fullRect];
+	[imageView displayImage:defaultImage];
+	beforeCGImage =  createStandardImage(defaultImage.CGImage);
 
 	
 	self.activity = [[LabeledActivityIndicatorView alloc] initWithController:self andText:@"Rendering..."];
@@ -388,10 +395,10 @@ CGImageRef createStandardImage(CGImageRef image) {
 }
 
 -(void)adjustEffect:(id)sender{
-	if(imageView.image){
+	//if(imageView.image){
 		[self showProgressIndicator:@"working"];
-		[self performSelectorInBackground:@selector(doFiltering:) withObject:oriCGImage];
-	}
+		[self performSelectorInBackground:@selector(doFiltering:) withObject:beforeCGImage];
+	//}
 }
 
 
@@ -407,8 +414,10 @@ CGImageRef createStandardImage(CGImageRef image) {
 				sourceType = UIImagePickerControllerSourceTypeCamera;
 			} else if(buttonIndex == 2) {
 				NSString *path = [[NSBundle mainBundle] pathForResource:@"afagangirl" ofType:@"png"];
-				imageView.image = [UIImage imageWithContentsOfFile:path];
-				oriCGImage =  createStandardImage(imageView.image.CGImage);				
+				//imageView.image = [UIImage imageWithContentsOfFile:path];
+				UIImage* img = [UIImage imageWithContentsOfFile:path];
+				[imageView displayImage:img];
+				beforeCGImage =  createStandardImage(img.CGImage);				
 			} 
 			if([UIImagePickerController isSourceTypeAvailable:sourceType]) {
 				_picker.sourceType = sourceType;
@@ -439,9 +448,9 @@ CGImageRef createStandardImage(CGImageRef image) {
 }
 
 - (IBAction)shareImage:(id)sender {
-	if(imageView.image) {
+	//if(imageView.image) {
 		
-		SHKItem *item = [SHKItem image:imageView.image title:title];
+		SHKItem *item = [SHKItem image: [UIImage imageWithCGImage: afterCGImage] title:title];
 		item.text = message;// @"More Applications from us http://DesignForApple.com";
 		
 		// Get the ShareKit action sheet
@@ -450,7 +459,7 @@ CGImageRef createStandardImage(CGImageRef image) {
 		// Display the action sheet
 		// [actionSheet showFromToolbar:self.toolbar];
 		[actionSheet showInView:self.view];
-	}
+	//}
 }
 
 - (IBAction)rateMe:(id)sender {
@@ -493,10 +502,13 @@ CGImageRef createStandardImage(CGImageRef image) {
 
 -(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info{
 	UIImage* selectedImage = [info	objectForKey:@"UIImagePickerControllerOriginalImage"];
-	imageView.image = [MyImageKit scaleAndRotateImage:selectedImage];
+	//imageView.image = [MyImageKit scaleAndRotateImage:selectedImage];
+	// todo : keep size ? or from configure by user ? 
+	UIImage* resizedImage = [MyImageKit scaleAndRotateImage:selectedImage];
+	[imageView displayImage:resizedImage];
 	
 	//[self resetWand];
-	self.oriCGImage = createStandardImage(imageView.image.CGImage);
+	self.beforeCGImage = createStandardImage(resizedImage.CGImage);
 	[[picker parentViewController] dismissModalViewControllerAnimated:YES];
 }
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {

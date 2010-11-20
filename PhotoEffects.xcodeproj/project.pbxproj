@@ -74,6 +74,10 @@
 		181FA0DC12852D75002DFF33 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181FA0DB12852D75002DFF33 /* MessageUI.framework */; };
 		181FA0DF12852D7E002DFF33 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181FA0DE12852D7E002DFF33 /* Security.framework */; };
 		181FA0E912852DD8002DFF33 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181FA0E812852DD8002DFF33 /* SystemConfiguration.framework */; };
+		1836EF851297A42E00FE89B5 /* ImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1836EF7F1297A42E00FE89B5 /* ImageScrollView.m */; };
+		1836EF861297A42E00FE89B5 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1836EF811297A42E00FE89B5 /* PhotoViewController.m */; };
+		1836EF871297A42E00FE89B5 /* TilingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1836EF831297A42E00FE89B5 /* TilingView.m */; };
+		1836EFA91297A99900FE89B5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1836EFA81297A99900FE89B5 /* QuartzCore.framework */; };
 		1864A4121292B06A00043ED9 /* Icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1864A40C1292B06A00043ED9 /* Icon72.png */; };
 		1864A4131292B06A00043ED9 /* Icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = 1864A40D1292B06A00043ED9 /* Icon48.png */; };
 		1864A4151292B06A00043ED9 /* Icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 1864A40F1292B06A00043ED9 /* Icon114.png */; };
@@ -258,6 +262,14 @@
 		181FA0DB12852D75002DFF33 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		181FA0DE12852D7E002DFF33 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		181FA0E812852DD8002DFF33 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1836EF7E1297A42E00FE89B5 /* ImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScrollView.h; sourceTree = "<group>"; };
+		1836EF7F1297A42E00FE89B5 /* ImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageScrollView.m; sourceTree = "<group>"; };
+		1836EF801297A42E00FE89B5 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		1836EF811297A42E00FE89B5 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		1836EF821297A42E00FE89B5 /* TilingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TilingView.h; sourceTree = "<group>"; };
+		1836EF831297A42E00FE89B5 /* TilingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TilingView.m; sourceTree = "<group>"; };
+		1836EF991297A93100FE89B5 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		1836EFA81297A99900FE89B5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		1864A40C1292B06A00043ED9 /* Icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon72.png; sourceTree = "<group>"; };
 		1864A40D1292B06A00043ED9 /* Icon48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon48.png; sourceTree = "<group>"; };
 		1864A40F1292B06A00043ED9 /* Icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon114.png; sourceTree = "<group>"; };
@@ -460,6 +472,7 @@
 				181FA0DF12852D7E002DFF33 /* Security.framework in Frameworks */,
 				181FA0E912852DD8002DFF33 /* SystemConfiguration.framework in Frameworks */,
 				18A49C70129419D5003DBAFE /* CFNetwork.framework in Frameworks */,
+				1836EFA91297A99900FE89B5 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +482,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1836EF991297A93100FE89B5 /* Entitlements.plist */,
 				189A1C2C12978A8D00A91A79 /* MyKit */,
 				1D3623240D0F684500981E51 /* EffectsAppDelegate.h */,
 				1D3623250D0F684500981E51 /* EffectsAppDelegate.m */,
@@ -837,6 +851,20 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		1836EF7B1297A42E00FE89B5 /* ScrollImageView */ = {
+			isa = PBXGroup;
+			children = (
+				1836EF7E1297A42E00FE89B5 /* ImageScrollView.h */,
+				1836EF7F1297A42E00FE89B5 /* ImageScrollView.m */,
+				1836EF801297A42E00FE89B5 /* PhotoViewController.h */,
+				1836EF811297A42E00FE89B5 /* PhotoViewController.m */,
+				1836EF821297A42E00FE89B5 /* TilingView.h */,
+				1836EF831297A42E00FE89B5 /* TilingView.m */,
+			);
+			name = ScrollImageView;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		189960FC11DC2196008A9582 /* im */ = {
 			isa = PBXGroup;
 			children = (
@@ -1099,6 +1127,7 @@
 		189A1C3312978A8D00A91A79 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1836EF7B1297A42E00FE89B5 /* ScrollImageView */,
 				189A1C3412978A8D00A91A79 /* image */,
 				189A1C3812978A8D00A91A79 /* LabeledActivityIndicatorView.h */,
 				189A1C3912978A8D00A91A79 /* LabeledActivityIndicatorView.m */,
@@ -1200,6 +1229,7 @@
 				181FA0DE12852D7E002DFF33 /* Security.framework */,
 				181FA0E812852DD8002DFF33 /* SystemConfiguration.framework */,
 				18A49C6F129419D5003DBAFE /* CFNetwork.framework */,
+				1836EFA81297A99900FE89B5 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1385,6 +1415,9 @@
 				189A1C4912978A8D00A91A79 /* MyUIBox.m in Sources */,
 				189A1C4A12978A8D00A91A79 /* MyPageScrollViewController.m in Sources */,
 				189A1C4D12978A8D00A91A79 /* MyViewController.m in Sources */,
+				1836EF851297A42E00FE89B5 /* ImageScrollView.m in Sources */,
+				1836EF861297A42E00FE89B5 /* PhotoViewController.m in Sources */,
+				1836EF871297A42E00FE89B5 /* TilingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1423,7 +1456,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_ENTITLEMENTS = "~/workspace/myApps/photography/PhotoEffects/Entitlements.plist";
+				CODE_SIGN_ENTITLEMENTS = "~/workspace/myApps/photography/PhotoEffectsAIO/Classes/Entitlements.plist";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Shi Lin";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos3.2]" = "iPhone Distribution: Shi Lin";
 				COPY_PHASE_STRIP = YES;
@@ -1469,7 +1502,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_ENTITLEMENTS = "~/workspace/myApps/photography/PhotoEffects/Entitlements.plist";
+				CODE_SIGN_ENTITLEMENTS = "~/workspace/myApps/photography/PhotoEffectsAIO/Classes/Entitlements.plist";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1513,7 +1546,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_ENTITLEMENTS = "~/workspace/myApps/photography/PhotoEffects/Entitlements.plist";
+				CODE_SIGN_ENTITLEMENTS = "~/workspace/myApps/photography/PhotoEffectsAIO/Classes/Entitlements.plist";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shi Lin (NER6K732V4)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
