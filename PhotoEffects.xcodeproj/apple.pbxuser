@@ -1,0 +1,906 @@
+// !$*UTF8*$!
+{
+	181F9F1B1285192B002DFF33 /* README */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1222, 923}}";
+			sepNavSelRange = "{110, 0}";
+			sepNavVisRange = "{0, 111}";
+		};
+	};
+	181FA08512852CE4002DFF33 /* SHKConfig.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2851.27, 3444}}";
+			sepNavSelRange = "{1091, 0}";
+			sepNavVisRange = "{1047, 2167}";
+		};
+	};
+	181FA0F112852DF8002DFF33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 181FA08512852CE4002DFF33 /* SHKConfig.h */;
+		name = "SHKConfig.h: 39";
+		rLen = 0;
+		rLoc = 1091;
+		rType = 0;
+		vrLen = 2167;
+		vrLoc = 1047;
+	};
+	184A83761291391E00E12AEA /* PhotoProcessViewController.m:390 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* PhotoProcessViewController.m */;
+		functionName = "-imagePickerController:didFinishPickingMediaWithInfo:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 390;
+		location = SepiaPro;
+		modificationTime = 311699428.175645;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	184A837E1291395E00E12AEA /* PhotoProcessViewController.m:67 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* PhotoProcessViewController.m */;
+		functionName = "-setOriCGImage:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 67;
+		location = SepiaPro;
+		modificationTime = 311699428.17582;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	184A83A112913ACE00E12AEA /* PhotoProcessViewController.m:196 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* PhotoProcessViewController.m */;
+		functionName = "-viewDidLoad";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 196;
+		location = SepiaPro;
+		modificationTime = 311699428.1759611;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	184A83BA12913B8700E12AEA /* PhotoProcessViewController.m:92 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* PhotoProcessViewController.m */;
+		functionName = "-createIMEffectImageWithCGImage:withOilPaint:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 92;
+		location = SepiaPro;
+		modificationTime = 311699428.176097;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	184A83C212913BAC00E12AEA /* PhotoProcessViewController.m:281 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* PhotoProcessViewController.m */;
+		functionName = "-adjustEffect:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 281;
+		location = SepiaPro;
+		modificationTime = 311699429.3804411;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	184A83CA12913BEF00E12AEA /* PhotoProcessViewController.m:57 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* PhotoProcessViewController.m */;
+		functionName = "createStandardImage()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 57;
+		location = SepiaPro;
+		modificationTime = 311699428.1763719;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	188C4A0211E5FCEE005B5E81 /* PhotoProcessViewController.m:5 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		currentMultipleMatches = (
+		);
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* PhotoProcessViewController.m */;
+		functionName = "-actionSheet:clickedButtonAtIndex:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 5;
+		location = SepiaPro;
+		modificationTime = 311699428.17485;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	188C4A0411E5FCF5005B5E81 /* PhotoProcessViewController.m:5 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		currentMultipleMatches = (
+		);
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* PhotoProcessViewController.m */;
+		functionName = "-actionSheet:clickedButtonAtIndex:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 5;
+		location = SepiaPro;
+		modificationTime = 311699428.175064;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	18977EC611E42D8800540011 /* PhotoProcessViewController.m:5 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		currentMultipleMatches = (
+		);
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* PhotoProcessViewController.m */;
+		functionName = "-actionSheet:clickedButtonAtIndex:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 5;
+		location = SepiaPro;
+		modificationTime = 311699428.1744081;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	18977ECF11E42DAC00540011 /* PhotoProcessViewController.m:5 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* PhotoProcessViewController.m */;
+		functionName = "-loadImage:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 5;
+		location = SepiaPro;
+		modificationTime = 311699428.174553;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	18977EDD11E42E7800540011 /* PhotoProcessViewController.m:5 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		currentMultipleMatches = (
+		);
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* PhotoProcessViewController.m */;
+		functionName = "-viewDidLoad";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 5;
+		location = SepiaPro;
+		modificationTime = 311699428.174713;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	1897FDB911CDB9320018398E /* PhotoProcessViewController.m:5 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* PhotoProcessViewController.m */;
+		functionName = "-oilPaint";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 5;
+		location = OpenCVTest;
+		modificationTime = 311699428.173281;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	1897FDCA11CDBB2A0018398E /* PhotoProcessViewController.m:5 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		currentMultipleMatches = (
+		);
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* PhotoProcessViewController.m */;
+		functionName = "-oilPaint";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 5;
+		location = SepiaPro;
+		modificationTime = 311699428.173735;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	1897FDCC11CDBB2B0018398E /* PhotoProcessViewController.m:5 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		currentMultipleMatches = (
+		);
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* PhotoProcessViewController.m */;
+		functionName = "-oilPaint";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 5;
+		location = SepiaPro;
+		modificationTime = 311699428.173876;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	1897FDD511CDBB7B0018398E /* PhotoProcessViewController.m:5 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* PhotoProcessViewController.m */;
+		functionName = "-hideProgressIndicator";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 5;
+		location = OpenCVTest;
+		modificationTime = 311699428.1740612;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	1899618611DC2197008A9582 /* MagickWand.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1281, 3822}}";
+			sepNavSelRange = "{4370, 27}";
+			sepNavVisRange = "{3520, 1122}";
+		};
+	};
+	189A1B901297890800A91A79 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* EffectsAppDelegate.m */;
+		name = "EffectsAppDelegate.m: 19";
+		rLen = 0;
+		rLoc = 547;
+		rType = 0;
+		vrLen = 917;
+		vrLoc = 0;
+	};
+	189A1B911297890800A91A79 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* EffectsAppDelegate.h */;
+		name = "EffectsAppDelegate.h: 2";
+		rLen = 0;
+		rLoc = 24;
+		rType = 0;
+		vrLen = 322;
+		vrLoc = 0;
+	};
+	189A1B931297890800A91A79 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 181F9F1B1285192B002DFF33 /* README */;
+		name = "README: 11";
+		rLen = 0;
+		rLoc = 110;
+		rType = 0;
+		vrLen = 111;
+		vrLoc = 0;
+	};
+	189A1B941297890800A91A79 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* PhotoProcessViewController.h */;
+		name = "PhotoProcessViewController.h: 9";
+		rLen = 21;
+		rLoc = 237;
+		rType = 0;
+		vrLen = 1222;
+		vrLoc = 0;
+	};
+	189A1BD9129789BB00A91A79 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 8";
+		rLen = 0;
+		rLoc = 242;
+		rType = 0;
+		vrLen = 242;
+		vrLoc = 0;
+	};
+	189A1C5012978AA200A91A79 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* PhotoProcessViewController.m */;
+		name = "PhotoProcessViewController.m: 172";
+		rLen = 0;
+		rLoc = 4571;
+		rType = 0;
+		vrLen = 1142;
+		vrLoc = 0;
+	};
+	189A1C5112978AA200A91A79 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1864A45F1292C53D00043ED9 /* Icon57.png */;
+	};
+	189A1C5212978AA200A91A79 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1864A40C1292B06A00043ED9 /* Icon72.png */;
+	};
+	189A1C5312978AA200A91A79 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1864A40D1292B06A00043ED9 /* Icon48.png */;
+	};
+	189A1C5412978AA200A91A79 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1864A40F1292B06A00043ED9 /* Icon114.png */;
+	};
+	189A1C5512978AA200A91A79 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1864A4101292B06A00043ED9 /* Icon512.png */;
+	};
+	189A1C5612978AA200A91A79 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 18856D1F128FB4F0002D1537 /* Default.png */;
+	};
+	189A1C8212978DCA00A91A79 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/apple/workspace/myApps/photography/PhotoEffects/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	189A1C8312978DCA00A91A79 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Effectsbooth_Prefix.pch */;
+		name = "Effectsbooth_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 181;
+		vrLoc = 0;
+	};
+	189A1C8412978DCA00A91A79 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 189A1C7F12978DB900A91A79 /* Entitlements.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/apple/workspace/myApps/photography/PhotoEffects/Entitlements.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	189A1C8512978DCA00A91A79 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 189A1C7F12978DB900A91A79 /* Entitlements.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/apple/workspace/myApps/photography/PhotoEffects/Entitlements.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	189F0F3D1290D144009E6B57 /* PhotoProcessViewController.m:126 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* PhotoProcessViewController.m */;
+		functionName = "-createIMEffectImage:withOilPaint:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 126;
+		location = OilPaintHD;
+		modificationTime = 311699428.175244;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	189F10F61291024D009E6B57 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1899618611DC2197008A9582 /* MagickWand.h */;
+		name = "MagickWand.h: 166";
+		rLen = 27;
+		rLoc = 4370;
+		rType = 0;
+		vrLen = 1122;
+		vrLoc = 3520;
+	};
+	189F111B12910EFC009E6B57 /* PhotoProcessViewController.m:126 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* PhotoProcessViewController.m */;
+		functionName = "-createIMEffectImage:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 126;
+		location = SepiaPro;
+		modificationTime = 311699428.175362;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	189F113212910FE9009E6B57 /* PhotoProcessViewController.m:126 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* PhotoProcessViewController.m */;
+		functionName = "-createIMEffectImage:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 126;
+		location = SepiaPro;
+		modificationTime = 311699428.175531;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	18A49CBF12942040003DBAFE /* PhotoProcessViewController.m:434 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* PhotoProcessViewController.m */;
+		functionName = "-loadImage:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 434;
+		location = SepiaPro;
+		modificationTime = 311699428.176513;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	18A49CCB129420F2003DBAFE /* PhotoProcessViewController.m:495 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* PhotoProcessViewController.m */;
+		functionName = "-imagePickerController:didFinishPickingMediaWithInfo:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 495;
+		location = SepiaPro;
+		modificationTime = 311699428.1766371;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	18A49CE412942280003DBAFE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 18A49CE512942280003DBAFE /* UIActionSheet.h */;
+		name = "UIActionSheet.h: 136";
+		rLen = 11;
+		rLoc = 6286;
+		rType = 0;
+		vrLen = 2650;
+		vrLoc = 4428;
+	};
+	18A49CE512942280003DBAFE /* UIActionSheet.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIActionSheet.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIActionSheet.h;
+		sourceTree = "<absolute>";
+	};
+	18A49D3012942744003DBAFE /* EffectsAppDelegate.m:18 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1D3623250D0F684500981E51 /* EffectsAppDelegate.m */;
+		functionName = "-applicationDidFinishLaunching:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 18;
+		location = SepiaPro;
+		modificationTime = 311699428.176766;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	18A49D3C12942776003DBAFE /* PhotoProcessViewController.m:316 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* PhotoProcessViewController.m */;
+		functionName = "-viewDidLoad";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 316;
+		location = SepiaPro;
+		modificationTime = 311699428.176859;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	18A49D451294279A003DBAFE /* PhotoProcessViewController.m:284 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* PhotoProcessViewController.m */;
+		functionName = "-viewDidLoad";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 284;
+		location = SepiaPro;
+		modificationTime = 311699428.1769511;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	18A49D4F129427E3003DBAFE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 18A49D50129427E3003DBAFE /* CGGeometry.h */;
+		name = "CGGeometry.h: 273";
+		rLen = 0;
+		rLoc = 8537;
+		rType = 0;
+		vrLen = 615;
+		vrLoc = 8068;
+	};
+	18A49D50129427E3003DBAFE /* CGGeometry.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CGGeometry.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h;
+		sourceTree = "<absolute>";
+	};
+	18B85D3E11CDE05100EFD8A8 /* PhotoProcessViewController.m:5 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		currentMultipleMatches = (
+		);
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* PhotoProcessViewController.m */;
+		functionName = "-viewDidLoad";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 5;
+		location = SepiaPro;
+		modificationTime = 311699428.1742231;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	18BC070711CCC9D900DA6770 /* PhotoEffects */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = PhotoEffects;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	18BC072111CCC9EE00DA6770 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	18BC072211CCC9EE00DA6770 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1D3623240D0F684500981E51 /* EffectsAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1222, 923}}";
+			sepNavSelRange = "{24, 0}";
+			sepNavVisRange = "{0, 322}";
+		};
+	};
+	1D3623250D0F684500981E51 /* EffectsAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1615.86, 923}}";
+			sepNavSelRange = "{547, 0}";
+			sepNavVisRange = "{0, 917}";
+		};
+	};
+	28D7ACF60DDB3853001CB0EB /* PhotoProcessViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1222, 987}}";
+			sepNavSelRange = "{237, 21}";
+			sepNavVisRange = "{0, 1222}";
+			sepNavWindowFrame = "{{15, 169}, {1656, 1004}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* PhotoProcessViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2136.04, 11172}}";
+			sepNavSelRange = "{4571, 0}";
+			sepNavVisRange = "{0, 1142}";
+			sepNavWindowFrame = "{{38, 148}, {1656, 1004}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = armv6;
+		activeBuildConfigurationName = Release;
+		activeExecutable = 18BC070711CCC9D900DA6770 /* PhotoEffects */;
+		activeSDKPreference = iphoneos4.1;
+		activeTarget = 540723D90E3DD25B00B598A2 /* PhotoEffects */;
+		addToTargets = (
+			540723D90E3DD25B00B598A2 /* PhotoEffects */,
+		);
+		breakpoints = (
+			1897FDB911CDB9320018398E /* PhotoProcessViewController.m:5 */,
+			1897FDCA11CDBB2A0018398E /* PhotoProcessViewController.m:5 */,
+			1897FDCC11CDBB2B0018398E /* PhotoProcessViewController.m:5 */,
+			1897FDD511CDBB7B0018398E /* PhotoProcessViewController.m:5 */,
+			18B85D3E11CDE05100EFD8A8 /* PhotoProcessViewController.m:5 */,
+			18977EC611E42D8800540011 /* PhotoProcessViewController.m:5 */,
+			18977ECF11E42DAC00540011 /* PhotoProcessViewController.m:5 */,
+			18977EDD11E42E7800540011 /* PhotoProcessViewController.m:5 */,
+			188C4A0211E5FCEE005B5E81 /* PhotoProcessViewController.m:5 */,
+			188C4A0411E5FCF5005B5E81 /* PhotoProcessViewController.m:5 */,
+			189F0F3D1290D144009E6B57 /* PhotoProcessViewController.m:126 */,
+			189F111B12910EFC009E6B57 /* PhotoProcessViewController.m:126 */,
+			189F113212910FE9009E6B57 /* PhotoProcessViewController.m:126 */,
+			184A83761291391E00E12AEA /* PhotoProcessViewController.m:390 */,
+			184A837E1291395E00E12AEA /* PhotoProcessViewController.m:67 */,
+			184A83A112913ACE00E12AEA /* PhotoProcessViewController.m:196 */,
+			184A83BA12913B8700E12AEA /* PhotoProcessViewController.m:92 */,
+			184A83C212913BAC00E12AEA /* PhotoProcessViewController.m:281 */,
+			184A83CA12913BEF00E12AEA /* PhotoProcessViewController.m:57 */,
+			18A49CBF12942040003DBAFE /* PhotoProcessViewController.m:434 */,
+			18A49CCB129420F2003DBAFE /* PhotoProcessViewController.m:495 */,
+			18A49D3012942744003DBAFE /* EffectsAppDelegate.m:18 */,
+			18A49D3C12942776003DBAFE /* PhotoProcessViewController.m:316 */,
+			18A49D451294279A003DBAFE /* PhotoProcessViewController.m:284 */,
+		);
+		codeSenseManager = 18BC072211CCC9EE00DA6770 /* Code sense */;
+		executables = (
+			18BC070711CCC9D900DA6770 /* PhotoEffects */,
+		);
+		expressions = (
+			self.view,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					991,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1270,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1004,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 311922065;
+			PBXWorkspaceStateSaveDate = 311922065;
+		};
+		perUserProjectItems = {
+			181FA0F112852DF8002DFF33 /* PBXTextBookmark */ = 181FA0F112852DF8002DFF33 /* PBXTextBookmark */;
+			189A1B901297890800A91A79 /* PBXTextBookmark */ = 189A1B901297890800A91A79 /* PBXTextBookmark */;
+			189A1B911297890800A91A79 /* PBXTextBookmark */ = 189A1B911297890800A91A79 /* PBXTextBookmark */;
+			189A1B931297890800A91A79 /* PBXTextBookmark */ = 189A1B931297890800A91A79 /* PBXTextBookmark */;
+			189A1B941297890800A91A79 /* PBXTextBookmark */ = 189A1B941297890800A91A79 /* PBXTextBookmark */;
+			189A1BD9129789BB00A91A79 /* PBXTextBookmark */ = 189A1BD9129789BB00A91A79 /* PBXTextBookmark */;
+			189A1C5012978AA200A91A79 /* PBXTextBookmark */ = 189A1C5012978AA200A91A79 /* PBXTextBookmark */;
+			189A1C5112978AA200A91A79 /* PBXBookmark */ = 189A1C5112978AA200A91A79 /* PBXBookmark */;
+			189A1C5212978AA200A91A79 /* PBXBookmark */ = 189A1C5212978AA200A91A79 /* PBXBookmark */;
+			189A1C5312978AA200A91A79 /* PBXBookmark */ = 189A1C5312978AA200A91A79 /* PBXBookmark */;
+			189A1C5412978AA200A91A79 /* PBXBookmark */ = 189A1C5412978AA200A91A79 /* PBXBookmark */;
+			189A1C5512978AA200A91A79 /* PBXBookmark */ = 189A1C5512978AA200A91A79 /* PBXBookmark */;
+			189A1C5612978AA200A91A79 /* PBXBookmark */ = 189A1C5612978AA200A91A79 /* PBXBookmark */;
+			189A1C8212978DCA00A91A79 /* PlistBookmark */ = 189A1C8212978DCA00A91A79 /* PlistBookmark */;
+			189A1C8312978DCA00A91A79 /* PBXTextBookmark */ = 189A1C8312978DCA00A91A79 /* PBXTextBookmark */;
+			189A1C8412978DCA00A91A79 /* PlistBookmark */ = 189A1C8412978DCA00A91A79 /* PlistBookmark */;
+			189A1C8512978DCA00A91A79 /* PlistBookmark */ = 189A1C8512978DCA00A91A79 /* PlistBookmark */;
+			189F10F61291024D009E6B57 /* PBXTextBookmark */ = 189F10F61291024D009E6B57 /* PBXTextBookmark */;
+			18A49CE412942280003DBAFE /* PBXTextBookmark */ = 18A49CE412942280003DBAFE /* PBXTextBookmark */;
+			18A49D4F129427E3003DBAFE /* PBXTextBookmark */ = 18A49D4F129427E3003DBAFE /* PBXTextBookmark */;
+		};
+		sourceControlManager = 18BC072111CCC9EE00DA6770 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1222, 923}}";
+			sepNavSelRange = "{242, 0}";
+			sepNavVisRange = "{0, 242}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* Effectsbooth_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1448, 923}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 181}";
+		};
+	};
+	540723D90E3DD25B00B598A2 /* PhotoEffects */ = {
+		activeExec = 0;
+		executables = (
+			18BC070711CCC9D900DA6770 /* PhotoEffects */,
+		);
+	};
+	8D1107310486CEB800E47090 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{61, 127}, {1656, 1004}}";
+		};
+	};
+}
